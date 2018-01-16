@@ -4,5 +4,5 @@ class School
     @name = name
   end
 
-  roster = Hash.new { |hash, key| hash[key] =  }
+  roster = Hash.new
 end
