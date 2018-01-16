@@ -1,6 +1,6 @@
 class School
 
-  # attr_accessor :roster
+  attr_accessor :roster
 
 
 
@@ -8,9 +8,5 @@ class School
     @name = name
     roster = Hash.new
   end
-
-  # def roster
-  #   @roster.hash ^ @roster.hash
-  # end
 
 end
