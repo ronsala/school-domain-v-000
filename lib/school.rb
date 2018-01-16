@@ -20,7 +20,7 @@ class School
   school = @school
 
   def sort
-    @roster.sort
+    @roster.sort.to_hash
   end
 
 end
