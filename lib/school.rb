@@ -2,8 +2,9 @@ class School
 
   def initialize(name)
     @name = name
+    @roster = Hash.new
   end
 
-  roster = Hash.new(0)
+
 
 end
