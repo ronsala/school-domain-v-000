@@ -20,7 +20,7 @@ class School
   school = @school
 
   def sort
-    @roster.to_ary.sort.to_h
+    @roster.each_value {|value| value.sort!}
   end
 
 end
