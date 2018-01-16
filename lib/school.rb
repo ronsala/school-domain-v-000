@@ -4,4 +4,6 @@ class School
     @name = name
   end
 
+  roster = Hash.new
+
 end
