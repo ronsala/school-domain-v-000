@@ -16,9 +16,6 @@ class School
     @roster[grade]
   end
 
-  # roster = @roster
-  # school = @school
-
   def sort
     @roster.each_value {|value| value.sort!}
   end
